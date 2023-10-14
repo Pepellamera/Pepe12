@@ -1,0 +1,104 @@
+body {
+  background: radial-gradient(circle, #000, transparent);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.fruit-list-container {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  text-align: center;
+  max-width: 600px;
+}
+
+h1 {
+  text-align: center;
+  top: 8px;
+  font-style: italic;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: bisque;
+}
+
+h2{
+  font-size: 20px;
+  font-weight: 20px;
+  font-style: oblique;
+}
+
+.button{
+  background-color: #0074cc;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+
+}
+
+
+label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: black;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.add-button, .edit-button, .delete-button {
+  background-color: #0074cc;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-button:hover, .edit-button:hover, .delete-button:hover {
+  background-color: #005aa7;
+}
+
+.filter input[type="text"] {
+  font-size: 14px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.fruit-item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.fruit-item span {
+  font-weight: bold;
+  font-size: 18px;
+  color: #333;
+}
